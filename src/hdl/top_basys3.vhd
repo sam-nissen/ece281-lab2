@@ -11,8 +11,8 @@
 --| ---------------------------------------------------------------------------
 --|
 --| FILENAME      : top_basys3.vhd
---| AUTHOR(S)     : Capt Phillip Warner
---| CREATED       : 01/22/2018 Last modified 02/09/2023
+--| AUTHOR(S)     : Capt Phillip Warner, C3C Sam Nissen
+--| CREATED       : 01/22/2018 Last modified 02/15/2024
 --| DESCRIPTION   : This file implements the top level module for a BASYS 3 to utilize 
 --|					a seven-segment decoder for displaying hex values on seven-segment 
 --|					displays (7SD) according to 4-bit inputs provided by switches.
