@@ -2,8 +2,8 @@
 # Vivado v2018.2 (64-bit)
 # SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
 # IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
-# Start of session at: Tue Feb 27 15:08:33 2024
-# Process ID: 2088
+# Start of session at: Tue Feb 27 18:27:02 2024
+# Process ID: 13480
 # Current directory: C:/Users/Samuel.Nissen/Desktop/VivadoFiles/ece281-lab2/binaryHexDisp.runs/synth_1
 # Command line: vivado.exe -log top_basys3.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_basys3.tcl
 # Log file: C:/Users/Samuel.Nissen/Desktop/VivadoFiles/ece281-lab2/binaryHexDisp.runs/synth_1/top_basys3.vds
@@ -15,9 +15,9 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 22764 
+INFO: Helper process launched with PID 34448 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:03 . Memory (MB): peak = 334.707 ; gain = 100.047
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:03 . Memory (MB): peak = 333.852 ; gain = 99.000
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-638] synthesizing module 'top_basys3' [C:/Users/Samuel.Nissen/Desktop/VivadoFiles/ece281-lab2/src/hdl/top_basys3.vhd:79]
 INFO: [Synth 8-3491] module 'sevenSegDecoder' declared at 'C:/Users/Samuel.Nissen/Desktop/VivadoFiles/ece281-lab2/binaryHexDisp.srcs/sources_1/new/sevenSegDecoder.vhd:34' bound to instance 'sevenSegDecoder_inst' of component 'sevenSegDecoder' [C:/Users/Samuel.Nissen/Desktop/VivadoFiles/ece281-lab2/src/hdl/top_basys3.vhd:96]
@@ -28,7 +28,7 @@ WARNING: [Synth 8-3917] design top_basys3 has port an[3] driven by constant 1
 WARNING: [Synth 8-3917] design top_basys3 has port an[2] driven by constant 1
 WARNING: [Synth 8-3917] design top_basys3 has port an[1] driven by constant 1
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:04 . Memory (MB): peak = 389.430 ; gain = 154.770
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:04 . Memory (MB): peak = 389.012 ; gain = 154.160
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -41,10 +41,10 @@ Report Check Netlist:
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:01 ; elapsed = 00:00:04 . Memory (MB): peak = 389.430 ; gain = 154.770
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:04 . Memory (MB): peak = 389.012 ; gain = 154.160
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:01 ; elapsed = 00:00:04 . Memory (MB): peak = 389.430 ; gain = 154.770
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:04 . Memory (MB): peak = 389.012 ; gain = 154.160
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7a35tcpg236-1
 INFO: [Project 1-570] Preparing netlist for logic optimization
@@ -52,7 +52,6 @@ INFO: [Project 1-570] Preparing netlist for logic optimization
 Processing XDC Constraints
 Initializing timing engine
 Parsing XDC File [C:/Users/Samuel.Nissen/Desktop/VivadoFiles/ece281-lab2/src/hdl/Basys3_Master.xdc]
-CRITICAL WARNING: [Designutils 20-1307] Command 'property' is not supported in the xdc constraint file. [C:/Users/Samuel.Nissen/Desktop/VivadoFiles/ece281-lab2/src/hdl/Basys3_Master.xdc:19]
 Finished Parsing XDC File [C:/Users/Samuel.Nissen/Desktop/VivadoFiles/ece281-lab2/src/hdl/Basys3_Master.xdc]
 INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Samuel.Nissen/Desktop/VivadoFiles/ece281-lab2/src/hdl/Basys3_Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_basys3_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/top_basys3_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
@@ -61,25 +60,25 @@ Completed Processing XDC Constraints
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 658.168 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 658.406 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:04 ; elapsed = 00:00:16 . Memory (MB): peak = 658.168 ; gain = 423.508
+Finished Constraint Validation : Time (s): cpu = 00:00:05 ; elapsed = 00:00:15 . Memory (MB): peak = 658.406 ; gain = 423.555
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a35tcpg236-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:04 ; elapsed = 00:00:16 . Memory (MB): peak = 658.168 ; gain = 423.508
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:05 ; elapsed = 00:00:15 . Memory (MB): peak = 658.406 ; gain = 423.555
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:04 ; elapsed = 00:00:16 . Memory (MB): peak = 658.168 ; gain = 423.508
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:05 ; elapsed = 00:00:15 . Memory (MB): peak = 658.406 ; gain = 423.555
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:17 . Memory (MB): peak = 658.168 ; gain = 423.508
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:15 . Memory (MB): peak = 658.406 ; gain = 423.555
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -118,7 +117,7 @@ WARNING: [Synth 8-3917] design top_basys3 has port an[3] driven by constant 1
 WARNING: [Synth 8-3917] design top_basys3 has port an[2] driven by constant 1
 WARNING: [Synth 8-3917] design top_basys3 has port an[1] driven by constant 1
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:04 ; elapsed = 00:00:17 . Memory (MB): peak = 658.168 ; gain = 423.508
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:06 ; elapsed = 00:00:15 . Memory (MB): peak = 658.406 ; gain = 423.555
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -130,13 +129,13 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:08 ; elapsed = 00:00:28 . Memory (MB): peak = 709.672 ; gain = 475.012
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:24 . Memory (MB): peak = 710.129 ; gain = 475.277
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:28 . Memory (MB): peak = 709.672 ; gain = 475.012
+Finished Timing Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:24 . Memory (MB): peak = 710.203 ; gain = 475.352
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -148,7 +147,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:08 ; elapsed = 00:00:28 . Memory (MB): peak = 709.969 ; gain = 475.309
+Finished Technology Mapping : Time (s): cpu = 00:00:09 ; elapsed = 00:00:24 . Memory (MB): peak = 710.613 ; gain = 475.762
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -172,7 +171,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:08 ; elapsed = 00:00:29 . Memory (MB): peak = 711.418 ; gain = 476.758
+Finished IO Insertion : Time (s): cpu = 00:00:10 ; elapsed = 00:00:25 . Memory (MB): peak = 711.742 ; gain = 476.891
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -185,7 +184,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:08 ; elapsed = 00:00:29 . Memory (MB): peak = 711.418 ; gain = 476.758
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:10 ; elapsed = 00:00:25 . Memory (MB): peak = 711.742 ; gain = 476.891
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -197,25 +196,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:08 ; elapsed = 00:00:29 . Memory (MB): peak = 711.418 ; gain = 476.758
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:10 ; elapsed = 00:00:25 . Memory (MB): peak = 711.742 ; gain = 476.891
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:08 ; elapsed = 00:00:29 . Memory (MB): peak = 711.418 ; gain = 476.758
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:10 ; elapsed = 00:00:25 . Memory (MB): peak = 711.742 ; gain = 476.891
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:29 . Memory (MB): peak = 711.418 ; gain = 476.758
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:10 ; elapsed = 00:00:25 . Memory (MB): peak = 711.742 ; gain = 476.891
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:08 ; elapsed = 00:00:29 . Memory (MB): peak = 711.418 ; gain = 476.758
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:10 ; elapsed = 00:00:25 . Memory (MB): peak = 711.742 ; gain = 476.891
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -245,11 +244,11 @@ Report Instance Areas:
 |2     |  sevenSegDecoder_inst |sevenSegDecoder |     7|
 +------+-----------------------+----------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:08 ; elapsed = 00:00:29 . Memory (MB): peak = 711.418 ; gain = 476.758
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:10 ; elapsed = 00:00:25 . Memory (MB): peak = 711.742 ; gain = 476.891
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 3 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:05 ; elapsed = 00:00:20 . Memory (MB): peak = 711.477 ; gain = 208.078
-Synthesis Optimization Complete : Time (s): cpu = 00:00:08 ; elapsed = 00:00:29 . Memory (MB): peak = 711.477 ; gain = 476.816
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:06 ; elapsed = 00:00:17 . Memory (MB): peak = 711.762 ; gain = 207.516
+Synthesis Optimization Complete : Time (s): cpu = 00:00:10 ; elapsed = 00:00:25 . Memory (MB): peak = 711.762 ; gain = 476.910
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Netlist 29-17] Analyzing 5 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
@@ -259,11 +258,11 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
-17 Infos, 6 Warnings, 1 Critical Warnings and 0 Errors encountered.
+17 Infos, 6 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:31 . Memory (MB): peak = 733.523 ; gain = 511.918
+synth_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:27 . Memory (MB): peak = 732.055 ; gain = 510.266
 WARNING: [Constraints 18-5210] No constraint will be written out.
 INFO: [Common 17-1381] The checkpoint 'C:/Users/Samuel.Nissen/Desktop/VivadoFiles/ece281-lab2/binaryHexDisp.runs/synth_1/top_basys3.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file top_basys3_utilization_synth.rpt -pb top_basys3_utilization_synth.pb
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.026 . Memory (MB): peak = 733.523 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Tue Feb 27 15:09:12 2024...
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.018 . Memory (MB): peak = 732.055 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Tue Feb 27 18:27:36 2024...
